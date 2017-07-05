@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>File Upload</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,700" rel="stylesheet"/>
+    <link rel="stylesheet" href="assets/css/demo.css"/>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="assets/js/main.js"></script>
+</head>
+<body>
+    <h2>File Upload Progress Bar</h2>
+    <form id="upload_form" enctype="multipart/form-data" method="post">
+        <input type="file" name="file1" id="file1"/>
+        <button type="button" class="btn btn-info uploadBtn" data-obj="file1">Upload File</button>
+        <div class="progressOverlaybg">
+            <div id="progress">
+                <div id="progress-bar" class="t2"><div id="status">Status</div></div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
